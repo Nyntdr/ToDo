@@ -132,7 +132,7 @@ onMounted(() => {
 <template>
   <div class="container">
     <header>
-      <h1>📝 To-Do List</h1>
+      <h1>To-Do List</h1>
       <div v-if="token" class="user-info">
         <span>Logged in: <strong>{{ currentUser?.username }}</strong></span>
         <button class="btn-logout" @click="handleLogout">Logout</button>
