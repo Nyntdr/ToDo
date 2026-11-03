@@ -14,4 +14,4 @@ class Todo(models.Model):
         ordering = ['-created_at']  # Newest todos first
 
     def __str__(self):
-        return self.title
+        return self.title   #how the todo will be represented in the admin panel and other places
